@@ -57,4 +57,60 @@
         Meanwhile: the result of the Unix wars was that AT\&T sued Berkeley,
         they won and BSD had to be cleansed of proprietary AT\&T code. And thus
         4.4BSD-Lite was created. Remember this one, we will get back to it soon.
+
+        \subsection{Rise of the GNU}
+        In 1983, out of nowhere a new actor comes onto the scene -~Richard
+        Stallman of MIT. He starts what will be known as the GNU project. His
+        aim? \emph{A complete Unix-compatible software system} composed entirely
+        of free software. Software that everyone can use, share and modify, with
+        open access to the source code.
+
+        To make his dream true he retires from MIT for full independence, starts
+        the Free Software Foundation (FSF) and creates GNU GPL copyleft license
+        in order to protect aforementioned rights. By early 90's most of GNU
+        software is ready, however the kernel is still incomplete.
+
+        In the meantime American-Dutch computer scientist Andrew S. Tanenbaum
+        writes a textbook on operating system while working at Vrije
+        Universeiteit in Amsterdam. In order to exemplify things he writes about
+        he creates MINIX operating system and makes its source code available
+        for study and research to universities.
+
+        This is important for the GNU timeline/multiverse because at this time,
+        somewhere in Finland a student of University of Helsinki, Linus Torvalds
+        reads Tanenbaum's book and works on MINIX. He starts a hobbyistic
+        project and tries to write an operating system kernel. \emph{``just a
+        hobby, won't be big and professional like gnu''}.
+
+        And now the plotlines join, because in 1991 he releases first version of
+        the Linux kernel. Inspired by a speech of Stallman that his friend took
+        him to, he licenses his work under GNU GPLv2.
+
+        Now check it out: what did the GNU project lack? {\bf A kernel!} Guess
+        what, people start joining GNU with Linux, creating what is known as
+        GNU/Linux distributions.
+
+        \subsection{Summary}
+        The story I just abstracted, real-life consequences follow that touch us
+        in present day, present time:
+        \begin{itemize}
+                \item *nix systems are divided into three branches, based on
+                        three of the most influential projects: the UNIX System
+                        V (SysV) branch, focused on stability and
+                        commerciability, BSD-licensed systems based on
+                        4.4BSD-Lite, with a long tradition of hackers flexing
+                        with their skills and showing innovation, and GNU/Linux
+                        distros which are free, open source and written from
+                        scratch with no direct inheritance of any OG Unix code.
+                \item There also exists MINIX, which nowadays is used mostly
+                        for educational purposes, though it has its industrial
+                        uses as well, for example its modified version runs on
+                        the Intel Management Engine
+                \item This entire mess had to be standardized somehow. It was,
+                        once by IEEE (POSIX standard) and once by The Open Group
+                        (SUS\footnote{im going insane}). Nowadays those two
+                        standards are more or less equivalent, but we usually
+                        refer to POSIX if we want to make sure something is
+                        portable across all unices.
+        \end{itemize}
 \end{document}
