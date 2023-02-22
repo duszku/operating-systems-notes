@@ -1,4 +1,60 @@
 \documentclass[../ops.tex]{subfiles}
 
 \begin{document}
+        \subsection{Genesis}
+        In the beginning MIT, AT\&T Bell Labs and General Electric worked on
+        Multics. Now the Multics was formless and unfinished, darkness was over
+        the surface of its shell and the spirit of Unix was hovering over the
+        codebase.
+
+        And Bell Labs said, ``Let us withdraw'' as they were not satisfied with
+        the progress. And on the third day an employee of Bell Labs, Ken
+        Thompson and co-worker of his, Dennis Ritchie discovered a PDP-7
+        minicomputer. And they saw that the PDP was good and they decided to
+        try again.
+        
+        \subsection{To the point}
+        You ever seen \emph{The C Programming Language}? The book I mean.
+        Remember who wrote it? Now take a peek at second paragraph of previous
+        subsection. Rings a bell?
+
+        First Unix was created at AT\&T Bell Labs in 1969. It was written in
+        assembly language for a PDP-7 machine and soon was ported to PDP-11.
+        It was a simplification of a project that K\&R worked on before
+        -~Multics.
+
+        Unix had a hierarchical file system \emph{(take that 1983 MS-DOS 2.0)},
+        an assembler, a text editor and a shell. In 1973 Version 4 Unix was
+        rewritten in C, an imperative high-level programming language created
+        one year earlier by Dennis Ritchie and Ken Thompson for the purpose of
+        making working with Unix easier, and the system itself more portable.
+
+        Since Bell Labs was forbidden from entering any other business than
+        communications services due to a 1956 decree in an antitrust case of its
+        parent organization, Unix code was distributed to universities and other
+        research entities\footnote{so called \emph{Research Unix}}.
+
+        One of the places where this code landed was the Computer Systems
+        Research Group at the university of California, Berkeley. Folk there
+        worked hard on Unix, adding a lot of new stuff such as the {\tt vi} text
+        editor, {\tt curses} library or integrating TCP/IP stack into it.
+
+        This resulted in divergence between the AT\&T and Berkeley unices, the
+        latter known as the Berkeley Software Distribution, or BSD for short.
+        This funny little series of events led to a silly little thingy called
+        {\bf Unix wars}, where AT\&T, Microsoft, IBM and BSD all fought over who
+        has the best Unix and whose Unix should become the standard. The
+        contenders were:
+        \begin{itemize}
+                \item UNIX System V by AT\&T
+                \item Xenix by Microsoft
+                \item PC/IX by IBM
+                \item 4.2BSD by Berkeley
+        \end{itemize}
+
+        This is actually really fun because there will be one more unix-related
+        war we will describe soon.
+        Meanwhile: the result of the Unix wars was that AT\&T sued Berkeley,
+        they won and BSD had to be cleansed of proprietary AT\&T code. And thus
+        4.4BSD-Lite was created. Remember this one, we will get back to it soon.
 \end{document}
